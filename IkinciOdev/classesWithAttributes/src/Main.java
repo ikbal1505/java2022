@@ -12,7 +12,7 @@ public class Main {
 
 
         ProductManager productManager=new ProductManager();
-        productManager.Add(product);
+        productManager.add(product);
         System.out.println(product.getKod());
     }
 }
